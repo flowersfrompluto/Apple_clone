@@ -1,10 +1,10 @@
 *{margin: 0; padding: 0; box-sizing: border-box;}
-* {font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+* {font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;}
 
-nav {width: 100%; background-color: rgb(39, 39, 39); display: flex; align-items: center}
+nav {width: 100%; background-color: rgb(39, 39, 39); display: flex; align-items: center; position: fixed;}
 
-.all {display: flex; justify-content: space-between; align-items: center; width: 70%; margin: auto; color: beige;}
-.all a {text-decoration: none; color: beige;}
+.all {display: flex; justify-content: space-between; align-items: center; width: 70%; margin: auto;}
+.all a {text-decoration: none; color:gainsboro;}
 .logo {width: 2%;}
 .logo img {width: 80%; object-fit: contain;}
 .search {width: 2%;}
@@ -14,7 +14,7 @@ nav {width: 100%; background-color: rgb(39, 39, 39); display: flex; align-items:
 
 /* ROW 1 HERE */
 
-.row1 {width: 100%; background-color: rgb(231, 231, 231);}
+.row1 {width: 100%; background-color: rgb(231, 231, 231); padding-top: 50px;}
 .row1 .texts {width: 80%; margin: auto; text-align: center; font-size: 15px; padding: 15px; color: rgb(73, 73, 73);}
 .row1 .texts a {text-decoration: none; color: royalblue}
 
@@ -48,3 +48,60 @@ nav {width: 100%; background-color: rgb(39, 39, 39); display: flex; align-items:
 .row4 .texts .text2 p {font-size: 25px;}
 .row4 .texts .links {width: 17%; display: flex; justify-content: space-between; margin: auto;}
 .row4 .texts .links a {text-decoration: none; color: royalblue; font-size: 20px;}
+
+
+/* ROW 5 HERE */
+
+.row5 {width: 100%; display: grid; grid-template-columns: 665px 665px; grid-row-gap: 10px; align-items: center; text-align: center; margin: auto; padding-top: 10px; margin: auto; justify-content: space-evenly; background-color: slategrey;}
+.row5 a {text-decoration: none; color: royalblue;}
+
+.row5 .col1 {width: 100%; background-image: url(../IMG/Index/fitness.jpg); height: 600px; background-position: center; background-size: cover; background-repeat: no-repeat; padding-top: 50px; color: #333;}
+.row5 .col1 p {font-weight: 500; font-size: 20px; padding-top: 10px;}
+.row5 .col1 .links {display: flex; width: 35%; margin: auto; justify-content: space-between;}
+.row5 .col1 .links a {font-size: 18px; width: 100%;}
+
+
+.row5 .col2 {width: 100%; background-image: url(../IMG/Index/macbook-pro.jpg); height: 600px; background-position: center; background-size: cover; background-repeat: no-repeat; padding-top: 50px; color: #333;}
+.row5 .col2 p {font-weight: 500; font-size: 20px; padding-top: 10px;}
+.row5 .col2 h3 {font-size: 35px;}
+.row5 .col2 .links {display: flex; width: 25%; margin: auto; justify-content: space-between;}
+.row5 .col2 .links a {font-size: 18px; width: 100%;}
+
+
+.row5 .col3 {width: 100%; background-image: url(../IMG/Index/valentine.jpg); height: 600px; background-position: center; background-size: cover; background-repeat: no-repeat; padding-top: 50px; color: #632154;}
+.row5 .col3 p {font-weight: 500; font-size: 20px; padding-top: 10px;}
+.row5 .col3 h3 {font-size: 35px;}
+.row5 .col3 .links {display: flex; width: 25%; margin: auto; justify-content: center;}
+.row5 .col3 .links a {font-size: 18px; width: 100%;}
+
+
+.row5 .col4 {width: 100%; background-image: url(../IMG/Index/arcade.jpg); height: 600px; background-position: center; background-size: cover; background-repeat: no-repeat; padding-top: 50px; color: #333;}
+.row5 .col4 p {font-weight: 500; font-size: 20px; padding-top: 10px;}
+.row5 .col4 .links {display: flex; width: 25%; margin: auto; justify-content: space-between;}
+.row5 .col4 .links a {font-size: 18px; width: 100%;}
+
+
+.row5 .col5 {width: 100%; background-image: url(../IMG/Index/card.jpg); height: 600px; background-position: center; background-size: cover; background-repeat: no-repeat; padding-top: 50px; color: #333;}
+.row5 .col5 p {font-weight: 500; font-size: 20px; padding-top: 10px;}
+.row5 .col5 h3 {font-size: 25px; padding-top: 10px; font-weight: 400;}
+.row5 .col5 .links {display: flex; width: 35%; margin: auto; justify-content: space-between;}
+.row5 .col5 .links a {font-size: 18px; width: 100%;}
+
+
+.row5 .col6 {width: 100%; background-image: url(../IMG/Index/tv-plus.jpg); height: 600px; background-position: center; background-size: cover; background-repeat: no-repeat; padding-top: 50px; color: #fff;}
+.row5 .col6 p {font-size: 25px; font-weight: 500; padding-top: 10px; font-weight: 100;}
+.row5 .col6 h3 {font-size: 80px; padding-top: 10px; font-weight: 400;}
+.row5 .col6 .links {display: flex; width: 30%; margin: auto; justify-content: space-between;}
+.row5 .col6 .links a {font-size: 18px; width: 100%;}
+
+
+/* HOVER HERE */
+
+.all a:hover {color: #fff;}
+.row1 .texts a:hover {text-decoration: underline;}
+.row2 .texts a:hover {text-decoration: underline;}
+.row3 .texts a:hover {text-decoration: underline;}
+.row4 .texts a:hover {text-decoration: underline;}
+.row5 a:hover {text-decoration: underline;}
+
+
