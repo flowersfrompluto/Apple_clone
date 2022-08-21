@@ -134,3 +134,11 @@ footer .bottom .two {width: 20%; text-align: right; margin: auto;}
 .row4 .texts a:hover {text-decoration: underline;}
 .row5 a:hover {text-decoration: underline;}
 footer a:hover {text-decoration: underline;}
+
+
+/* iPhone page */
+
+nav {position: none;}
+
+.row-1 {width: 100%; padding-top: 70px; background-color: gainsboro; margin: auto; justify-content: space-around; align-items: center; text-align: center;}
+.row-1 .icons {width: 80%; margin: auto; display: flex;}
