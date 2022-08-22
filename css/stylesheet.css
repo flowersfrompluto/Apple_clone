@@ -140,5 +140,9 @@ footer a:hover {text-decoration: underline;}
 
 nav {position: none;}
 
-.row-1 {width: 100%; padding-top: 70px; background-color: gainsboro; margin: auto; justify-content: space-around; align-items: center; text-align: center;}
+.row-1 {width: 100%; padding-top: 70px; background-color: #FBFBFD; margin: auto; justify-content: space-around; align-items: center; text-align: center;}
 .row-1 .icons {width: 80%; margin: auto; display: flex;}
+
+.row-2 {width: 100%; padding-top: 8px; background-color: #F5F5F7; margin: auto; justify-content: space-around; align-items: center; text-align: center; font-size: 12px; padding-bottom: 8px; color: #4C4C4E;}
+.row-2 .icons {width: 80%; margin: auto; display: flex;}
+.row-2 a {text-decoration: none; color: royalblue;}
